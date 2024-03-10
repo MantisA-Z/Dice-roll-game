@@ -9,7 +9,7 @@ let imgs = [];
 for (let i = 0; i < usr_input; i++){
     let value = Math.floor(Math.random() * 6) + 1;
     values.push(value);
-    imgs.push(`<img src="png/${value}.png">`);
+    imgs.push(`<img src="${value}.png">`);
  };
  
  result.textContent = `Dice: ${values.join(', ')}`;
