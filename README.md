@@ -1,1 +1,1 @@
-# Guess-Num-game
+# Dice roll game
